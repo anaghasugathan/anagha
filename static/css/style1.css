@@ -1,0 +1,129 @@
+h1{
+    color: red;
+}
+div h1{
+    background-color: aqua;
+}
+div > p{
+    color: blue;
+}
+div p{
+    color: blueviolet;
+}
+div + p{
+    background-color:green;
+}
+div ~ p{
+    color: cornflowerblue;
+}
+
+
+div{
+    background-color: aqua;
+}
+p{
+    color: rgb(98, 78,80);
+}
+div:hover p{
+    color: rgb(198,123,59);
+    display: inline;
+    color: brown;
+    font-size: 60px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.drop-content{
+    padding: 20px 28px;
+    box-shadow: 2px 3px 5px black;
+    display: none;
+}
+.dropdown:hover .drop-content{
+    display: block;
+}
+
+.dropbtn{
+    position: relative;
+    display: inline-block;
+}
+.dropbtn button{
+    padding: 20px;
+    font-size: 15px;
+    background-color: bisque;
+    border: none;
+}
+.dropdowncontent{
+    position: absolute;
+    min-width: none;
+    box-shadow: 0px 8px 16px 0px black;
+    display: none;
+}
+.dropdowncontent a{
+    display: block;
+    padding: 13px 19px;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.dropdowncontent a:hover{
+    background-color: aliceblue;
+
+}
+.dropbtn:hover .dropdowncontent {
+    display: block;
+}
+body{
+    counter-reset: select;
+}
+h2:before{
+    counter-increment: select;
+    content:"Sl.no" counter(select)":"
+}
+a[target="_blank"]{
+    background-color: bisque;
+
+}
+a[target="_top"]{
+    background-color:green;
+}
+img[title~='flower']{
+    border: 3px solid blue;
+}
+.container{
+    width: 50px;
+    margin: auto;
+    text-align: center;
+}
+.container input{
+ padding: 1px;
+width: 300px;
+}
+.container input[type="button"]{
+    width: 300px;
+}
+input[type="text"]{
+    border:none;
+    border-bottom: 1px solid red;
+}
+input[type="number"]{
+    border: none;
+    border-bottom: 1px solid green;
+}
+input:focus{
+    border:none;
+    background-color: cornflowerblue;
+}
+.container input[type="button"]:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+    
+    
+

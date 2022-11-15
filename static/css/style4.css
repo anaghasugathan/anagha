@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(to right,rgba(345,8,8,0),rgba(343,9,9,1));
+}
+    
+.container{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid gray;
+   /* background-image: repeating-linear-gradient(closest-side at 70%,50%,45%,blue 10%,green 20%,yellow 30%)*/
+   /* background-image: linear-gradient(to left bottom,blue,green,yellow);*/
+   background-image: repeating-conic-gradient;
+   
+
+}

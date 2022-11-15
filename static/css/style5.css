@@ -1,0 +1,49 @@
+.navbar{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+.navbar input{
+    padding: 0;
+    width:200px;
+    height: 20px;
+}
+.navbaritem{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbaritem input{
+    padding:none;
+    width: 200px;
+}
+.navbar2{
+    background-color: aliceblue;
+    width: 100%;
+    height: 60px;
+}
+.navbar2 ul{
+    list-style:none ;
+    background-color: aliceblue;
+}
+.navbar2 li{
+    float: left;
+    padding: 20px;
+}
+.navbar2 li:hover{
+    background-color:skyblue;
+    color: azure;
+
+}
+.navbar a{
+    text-decoration:none ;
+    font-size: 200;
+    color: white;
+}
+
+

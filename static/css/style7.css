@@ -1,0 +1,47 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    animation-name: example;
+    animation-duration: 6s;
+    position: relative;
+    animation-iteration-count: infinite 3;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes example{
+    0%{
+        background-color: yellow;
+    }
+     15%{
+background-color: turquoise;
+left: 200px;
+top: 0px;
+width: 200px;
+     } 
+     30%{
+        background-color: tomato;
+        left: 200px;
+        top: 200px;
+        width: 200x;
+     }
+     45%{
+        background-color: springgreen;
+        left: 0px;
+        top: 200px;
+        width: 200pxpx;
+     }
+     60%{
+        background-color: salmon;
+        left: 200px;
+        top: 0px;
+       width: 200px; 
+     }
+
+    
+
+   
+}
+    
